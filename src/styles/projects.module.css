@@ -1,0 +1,16 @@
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .heading {
+    margin-top: 5rem;
+    font-size: 48px;
+    color: #3B0404;
+  }
+  
+  @media only screen and (max-width: 1820px) {
+    .projects {
+      flex-direction: column;
+    }
+  }
