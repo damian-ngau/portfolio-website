@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
-import Hero from "../components/hero";
-import Tech from "../components/tech";
+import Bio from "../components/bio";
 import Projects from "../components/projects";
 import Contacts from "../components/contacts";
 import * as styles from "../styles/index.module.css";
@@ -16,8 +15,7 @@ export default function Home() {
       <div className={styles.main}>
         <div className={styles.heading}>Damian Ngau</div>
         <div className={styles.subheading}>Software Developer{"\n"}</div>
-        <Hero />
-        <Tech />
+        <Bio />
         <div className={styles.blankSpace}></div>
         <Projects />
         <div className={styles.blankSpace}></div>

@@ -4,14 +4,6 @@ html {
   scroll-behavior: smooth;
 }
 
-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 8px;
-  border: 2px solid #988686;
-}
-
 .app {
   margin-left: 20%;
   margin-right: 20%;
@@ -24,12 +16,11 @@ img {
   align-items: center;
   position: sticky;
   top: 0;
-
   margin-top: -8rem;
   margin-bottom: 8rem;
-  width: 100%;
   height: 5rem;
-
+  padding-left: 20%;
+  font-family: "Roboto Mono", monospace;
   background-color: #ffffff;
 }
 
@@ -48,19 +39,44 @@ img {
 }
 
 .link:hover {
-  opacity: 0.6;
+  color: #988686;
   transform: translateY(-7px);
 }
 
-@media only screen and (max-width: 500px) {
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 5rem;
+  padding-left: 20%;
+  font-family: "Roboto Mono", monospace;
+  background-color: #ffffff;
+}
+
+.footerText {
+  margin-top: 2rem;
+  padding-right: 20px;
+  height: 50px;
+  color: #3b0404;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 1820px) {
   .app {
     margin-left: 5%;
     margin-right: 5%;
   }
 
+  .navBar {
+    padding-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   .link,
   .link:hover {
     transition: none;
     transform: none;
+    color: #3b0404;
   }
 }

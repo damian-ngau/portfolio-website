@@ -6,7 +6,7 @@ export default function Card(props) {
   return (
     <div className={styles.card} key={project.link}>
       <div className={styles.title}>{project.title}</div>
-      <div className={styles.imageContainer}>
+      <div className={styles.cardImageContainer}>
         <img src={project.image} alt="Unavailable" />
       </div>
       <div className={styles.body}>{project.desc}</div>

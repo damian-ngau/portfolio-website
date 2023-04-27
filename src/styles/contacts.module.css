@@ -1,7 +1,8 @@
 .contacts {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
+  width: 50%;
+  float: left;
 }
 
 .heading {
@@ -13,7 +14,6 @@
 .link {
   font-size: 24px;
   color: #6b88e0;
-  width: 24%;
   margin-top: 5rem;
   text-decoration: none;
   transition: opacity 0.15s ease-in-out, transform 250ms;
@@ -24,9 +24,24 @@
   transform: translateY(-7px);
 }
 
-@media only screen and (max-width: 1820px) {
+.contactsImageContainer {
+  margin-top: 5rem;
+  width: 50%;
+  float: right;
+}
+
+@media only screen and (max-width: 500px) {
   .contacts {
-    flex-direction: column;
-    align-items: left;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .link {
+    padding-right: 20px;
+    font-size: 20px;
+  }
+
+  .contactsImageContainer {
+    width: 100%;
   }
 }
