@@ -9,7 +9,7 @@
   color: #3b0404;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
   .projects {
     flex-direction: column;
   }
