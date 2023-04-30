@@ -4,7 +4,7 @@ import * as styles from "../styles/card.module.css";
 export default function Card(props) {
   let project = props.project;
   return (
-    <div className={styles.card} key={project.link}>
+    <div className={styles.card} key={project.code}>
       <div className={styles.title}>{project.title}</div>
       <div className={styles.cardImageContainer}>
         <img src={project.image} alt="Unavailable" />
@@ -18,17 +18,17 @@ export default function Card(props) {
 function buttons(project) {
   return (
     <div className={styles.buttons}>
-      {project.link === "" ? (
+      {project.code === "" ? (
         <div></div>
       ) : (
         <div>
           <a
             className={styles.button}
-            href={project.link}
+            href={project.code}
             target="_blank"
             rel="noreferrer"
           >
-            source
+            code
           </a>
         </div>
       )}
@@ -42,7 +42,7 @@ function buttons(project) {
             target="_blank"
             rel="noreferrer"
           >
-            view project
+            project
           </a>
         </div>
       )}

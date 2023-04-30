@@ -32,7 +32,7 @@ export default function Layout({ children }) {
       </div>
       <div className={styles.footer}>
         <div className={styles.footerText}>
-          Ⓒ Damian Ngau | damianngau@gmail.com{" "}
+          Ⓒ Damian Ngau | damianngau@gmail.com
         </div>
       </div>
     </div>
