@@ -42,7 +42,7 @@ function buttons(project) {
             target="_blank"
             rel="noreferrer"
           >
-            project
+            view
           </a>
         </div>
       )}
