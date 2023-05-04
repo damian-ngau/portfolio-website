@@ -2,7 +2,7 @@
 
 My personal portfolio website to showcase my projects.
 
-- Built from scratch using Javascript, React, Gatsby
+- Built from scratch using Javascript, React, Gatsby.
 
 - Deployed via Netlify.
 
