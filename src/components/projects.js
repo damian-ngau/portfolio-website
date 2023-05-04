@@ -29,7 +29,7 @@ const projectData = [
     view: "https://public.tableau.com/app/profile/damian.ngau/viz/data_visualisation_1/Dashboard1",
   },
   {
-    title: "Personal Website",
+    title: "Portfolio Website",
     image: portfolioWebsite,
     desc: "This website :)",
     code: "https://github.com/damian-ngau/portfolio-website",
