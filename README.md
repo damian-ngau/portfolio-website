@@ -2,7 +2,9 @@
 
 My personal portfolio website to showcase my projects.
 
-Built from scratch using Javascript, React, Gatsby and deployed via Netlify.
+- Built from scratch using Javascript, React, Gatsby
+
+- Deployed via Netlify.
 
 Portfolio website at [dngau.dev](https://dngau.dev/)
 
