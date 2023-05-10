@@ -10,6 +10,7 @@ export default function Home() {
   return (
     <Layout>
       <head>
+        <link rel="icon" href="/static/favicon.ico"></link>
         <title>Damian Ngau</title>
       </head>
       <div className={styles.main}>
