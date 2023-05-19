@@ -5,6 +5,7 @@ import gastroCancerWebsite from "/static/images/gastroCancerWebsite.png";
 import housingMarket from "/static/images/housingMarket.png";
 import spotifyTableau from "/static/images/spotifyTableau.png";
 import portfolioWebsite from "/static/images/portfolioWebsite.png";
+import capybaraStudies from "/static/images/capybara-studies.png";
 
 const projectData = [
   {
@@ -34,6 +35,13 @@ const projectData = [
     desc: "This website :)",
     code: "https://github.com/damian-ngau/portfolio-website",
     view: "https://dngau.dev/",
+  },
+  {
+    title: "Capybara Studies",
+    image: capybaraStudies,
+    desc: "A website featuring ambience sounds for work, study and relaxation.",
+    code: "https://github.com/damian-ngau/capybara-studies",
+    view: "https://capybarastudies.app/",
   },
 ];
 
