@@ -21,10 +21,6 @@ export default function Layout({ children }) {
           <Link className={styles.link} href="/#Contacts">
             Contact
           </Link>
-
-          <Link className={styles.link} href={resumeLink}>
-            Resume
-          </Link>
         </div>
       </div>
       <div className={styles.app}>
