@@ -3,9 +3,6 @@ import { Link } from "gatsby";
 import * as styles from "../styles/layout.module.css";
 
 export default function Layout({ children }) {
-  let resumeLink =
-    "https://drive.google.com/file/d/1q54DVmlTJq43Q0_EuwsyFtUJsUO8C1SB/view?usp=sharing";
-
   return (
     <div>
       <div className={styles.navBar}>
