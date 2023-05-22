@@ -1,12 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Layout from "../components/layout";
 import Bio from "../components/bio";
 import Projects from "../components/projects";
 import Contacts from "../components/contacts";
 import * as styles from "../styles/index.module.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import ReactGA from "react-ga";
 
 export default function Home() {
+  useEffect(() => {
+    ReactGA.initialize("G-T3XXRDEHCY");
+
+    ReactGA.pageview("/");
+  }, []);
+
   return (
     <Layout>
       <head>
