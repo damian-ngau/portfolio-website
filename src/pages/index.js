@@ -8,7 +8,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import ReactGA from "react-ga4";
 
 export default function Home() {
-  ReactGA.initialize("G-T3XXRDEHCY");
+  ReactGA.initialize("G-EHCR2GY7LB");
 
   return (
     <Layout>
